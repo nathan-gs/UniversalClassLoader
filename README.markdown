@@ -1,9 +1,12 @@
 UniversalClassLoader implements a "universal" autoloader for PHP 5.3.
 It is able to load classes that use either:
- * The technical interoperability standards for PHP 5.3 namespaces and
-   class names (http://groups.google.com/group/php-standards/web/psr-0-final-proposal);
 
- * The PEAR naming convention for classes (http://pear.php.net/).
+ * The technical interoperability standards for PHP 5.3 namespaces and
+   class names 
+   http://groups.google.com/group/php-standards/web/psr-0-final-proposal
+
+ * The PEAR naming convention for classes.
+   http://pear.php.net/
 
 Classes from a sub-namespace or a sub-hierarchy of PEAR classes can be
 looked for in a list of locations to ease the vendoring of a sub-set of
