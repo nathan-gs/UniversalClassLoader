@@ -3,7 +3,7 @@ It is able to load classes that use either:
 
  * The [technical interoperability standards for PHP 5.3 namespaces and
    class names](http://groups.google.com/group/php-standards/web/psr-0-final-proposal).
- * [The PEAR naming convention](http://pear.php.net) for classes.
+ * The [PEAR naming convention](http://pear.php.net) for classes.
 
 Classes from a sub-namespace or a sub-hierarchy of PEAR classes can be
 looked for in a list of locations to ease the vendoring of a sub-set of
@@ -35,5 +35,5 @@ directory, and it will then fallback to the framework/ directory if not found be
 ###Credits
 This UniversalClassLoader is a copy of The [Symfony2 UniversalClassLoader](https://github.com/symfony/symfony/blob/master/src/Symfony/Component/HttpFoundation/UniversalClassLoader.php). It's made
 & opensourced by Fabien Potencier of Sensio Labs for the [Symfony2 Framework](http://symfony-reloaded.org),
-it can be found on the [Symfony2 github](https://github.com/symfony/symfony) page. 
+the original can be found on the [Symfony2 github](https://github.com/symfony/symfony) page. 
 
